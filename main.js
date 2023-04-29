@@ -1,5 +1,6 @@
-const companies = ['google', 'facebook', 'microsoft', 'apple'];
+const companies = ['google', 'facebook', 'microsoft', 'apple', 'adobe'];
 const testCharacter='o';
+let filteredCompanies = [];
 
 for (let i = 0; i < companies.length; i++)
 {
@@ -12,5 +13,9 @@ for (let i = 0; i < companies.length; i++)
             countOccurrences++;
         }
     }
-    console.log(countOccurrences);
+    if (countOccurrences<=1)
+    {
+        filteredCompanies.push(companies[i]);
+    }
+    console.log(filteredCompanies);
 }
