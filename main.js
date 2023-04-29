@@ -1,4 +1,4 @@
-const companies = ['google', 'facebook', 'microsoft', 'apple', 'adobe'];
+const companies = ['google', 'facebook', 'microsoft', 'apple', 'adobe', 'IBM', 'Oracle', 'Amazon'];
 const testCharacter='o';
 let filteredCompanies = [];
 
